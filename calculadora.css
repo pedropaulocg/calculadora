@@ -1,0 +1,98 @@
+#calculadora{
+    background-color: rgb(53, 53, 53);
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+body h1{
+    text-align: center;
+}
+#visor{
+    display: block;
+    width: 100%;
+    height: 7vh;
+    background-color: honeydew;
+    text-align: right;
+    font-size: 2.7rem;
+}
+#botoes-num{
+    width: 70%;
+    margin-top: 5%;
+}
+.btn{
+    width: 27%;
+    height: 8vh;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2px;
+    font-size: 22px;
+}
+.btn:hover{
+    background-color: royalblue;
+}
+#botoes-op{
+    width: 20%;
+    margin-top: 5%;
+}
+.op{
+    display: block;
+    width: 90%;
+    height: 7vh;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.op:hover{
+    background-color: royalblue;
+}
+.igual{
+    position: absolute;
+    top: 68%;
+    left: 41.7%;
+    width: 17%;
+    height: 8vh;
+    cursor: pointer;
+    background-color: rgb(255, 49, 49);
+    font-size: 22px;
+    border: none;
+}
+.igual:hover{
+    background-color: rgb(189, 37, 37);
+}
+.limpar{
+    width: 50%;
+    height: 5vh;
+    cursor: pointer;
+    font-size: 22px;
+}
+.limpar:hover{
+    background-color: royalblue;
+}
+@media (max-width: 400px){
+    #calculadora{
+        width: 80%;
+    }
+    .igual{
+        top: 70%;
+    }
+    .limpar:hover{
+    background-color: rgb(235, 232, 232);
+    }
+    .igual:hover{
+    background-color: rgb(255, 49, 49);
+    }
+    .op:hover{
+    background-color: rgb(235, 232, 232);
+    }
+    .btn:hover{
+    background-color: rgb(235, 232, 232);
+    }
+}
