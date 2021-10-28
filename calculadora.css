@@ -73,7 +73,7 @@ body h1{
 .limpar:hover{
     background-color: royalblue;
 }
-@media (max-width: 400px){
+@media (max-width: 480px){
     #calculadora{
         width: 80%;
     }
